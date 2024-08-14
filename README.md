@@ -1,4 +1,6 @@
-![GOMYCODE logo](./assets/GOMYCODE-LOGO.png)
+<p align="center">
+  <img src="./assets/GOMYCODE-LOGO.png" alt="GOMYCODE logo"/>
+</p>
 
 # GOMYCODE Python Projects
 
