@@ -30,22 +30,30 @@ print(binary_search([1,2,3,5,8], 5)) # it should return True if 5 is found eihte
 
 
 # Power Calculation 
-# def power(a, b):
-#     return a ** b
+# defined a function named power with parameters
+def power(a, b):
+    # and performed the power operation on these parameters 
+    return a ** b
 
 # Bubble Sort 
-# def bubble_sort(arr):
-#     n = len(arr)
-#     for i in range(n-1):
-#         for j in range(0, n-i-1):
-#             if arr[j] > arr[j+1]:
-#                 arr[j], arr[j+1] = arr[j+1], arr[j]
-#     return arr
+# defined the function and named it bubble_sort with an arr parameter 
+def bubble_sort(arr):
+    # gave n variable the length of the array 
+    n = len(arr)
+    # performed a loop from 0 to n-1
+    for i in range(n-1):
+        # performed a loop from 0 to n-2
+        for j in range(0, n-i-1):
+            # if the current element is greater than the next element then swap them
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
 
+# Began Testing the  array with the test cases
 # Sample Data
-# data = [29, 13, 22, 37, 52, 49, 46, 71, 56]
-# sorted_data = bubble_sort(data)
-# print(sorted_data)
+data = [29, 13, 22, 37, 52, 49, 46, 71, 56]
+sorted_data = bubble_sort(data)
+print(sorted_data)
 
 
 # Merge Sort 
