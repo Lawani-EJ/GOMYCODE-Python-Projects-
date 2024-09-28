@@ -57,44 +57,67 @@ print(sorted_data)
 
 
 # Merge Sort 
-# def merge_sort(arr):
-#     if len(arr) > 1:
-#         mid = len(arr) // 2
-#         L = arr[:mid]
-#         R = arr[mid:]
+# defined the function and named it merge_sort with an arr parameter
+def merge_sort(arr):
+    # if the array has only one element then return the array
+    if len(arr) > 1:
+        # performed this operation to find the middle index of the array
+        mid = len(arr) // 2
+        # performed a loop from 0 to mid to store the left half of the array 
+        L = arr[:mid]
+        # performed a loop from mid to the end of the array to store the right half of the array
+        R = arr[mid:]
 
-#         merge_sort(L)
-#         merge_sort(R)
+        # called the merge_sort function on the left half of the array
+        merge_sort(L)
+        # called the merge_sort function on the right half of the array
+        merge_sort(R)
 
-#         i = j = k = 0
+        # performed a loop from 0 to the length of the left array to merge the left and right
+        i = j = k = 0
+        while i < len(L) and j < len(R):
+            if L[i] < R[j]:
+                arr[k] = L[i]
+                i += 1
+            else:
+                arr[k] = R[j]
+                j += 1
+            k += 1
 
-#         while i < len(L) and j < len(R):
-#             if L[i] < R[j]:
-#                 arr[k] = L[i]
-#                 i += 1
-#             else:
-#                 arr[k] = R[j]
-#                 j += 1
-#             k += 1
+        while i < len(L):
+            arr[k] = L[i]
+            i += 1
+            k += 1
 
-#         while i < len(L):
-#             arr[k] = L[i]
-#             i += 1
-#             k += 1
+        while j < len(R):
+            arr[k] = R[j]
+            j += 1
+            k += 1
+    return arr
 
-#         while j < len(R):
-#             arr[k] = R[j]
-#             j += 1
-#             k += 1
-#     return arr
-
+# Began Testing the  array with the test cases
+# Sample Data
+data = [38, 27, 43, 3, 9, 82, 10]
+sorted_data = merge_sort(data)
+print("The Sorted data = ", sorted_data)
 
 # Quick Sort 
-# def quick_sort(arr):
-#     if len(arr) <= 1:
-#         return arr
-#     else:
-#         pivot = arr[0]
-#         less_than_pivot = [x for x in arr[1:] if x <= pivot]
-#         greater_than_pivot = [x for x in arr[1:] if x > pivot]
-#         return quick_sort(less_than_pivot) + [pivot] + quick_sort(greater_than_pivot)
+# defined the function and named it quick_sort with an arr parameter
+def quick_sort(arr):
+    # if the array has only one element then return the array
+    if len(arr) <= 1:
+        return arr
+    else:
+        # perform this operation to find the middle index of the array
+        pivot = arr[0]
+        # performed a loop from 1 to the length of the array to store the elements less than
+        less_than_pivot = [x for x in arr[1:] if x <= pivot]
+        # performed a loop from 1 to the length of the array to store the elements greater than
+        greater_than_pivot = [x for x in arr[1:] if x > pivot]
+        return quick_sort(less_than_pivot) + [pivot] + quick_sort(greater_than_pivot)
+
+# Began Testing the  array with the test cases
+# Sample Data
+data = [38, 27, 43, 3, 9, 82, 10]
+sorted_data = quick_sort(data)
+print("The Sorted data = ", quick_sort)
