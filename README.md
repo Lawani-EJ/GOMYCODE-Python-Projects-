@@ -2,7 +2,7 @@
   <img src="./assets/GOMYCODE-LOGO.png" alt="GOMYCODE logo"/>
 </p>
 
-# GOMYCODE Python Projects
+# GOMYCODE Python Projects and Checkpoints.
 
 ## Welcome!
 Welcome to my GitHub repository for all projects i have completed during my training at GOMYCODE's BootCamp.
