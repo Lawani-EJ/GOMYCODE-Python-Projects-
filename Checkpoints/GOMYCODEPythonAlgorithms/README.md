@@ -1,3 +1,5 @@
+![ProjectTask](/assets/CompletedCheckpointScreenshots/Screenshot%20(131).png)
+
 # Algorithms Checkpoint
 This repository contains Python implementations of various algorithms covered in the bootcamp. The scripts demonstrate sorting, searching, and other algorithmic techniques with detailed comments explaining each step. The algorithms include Binary Search, Power Calculation, Bubble Sort, Merge Sort, and Quick Sort.
 
