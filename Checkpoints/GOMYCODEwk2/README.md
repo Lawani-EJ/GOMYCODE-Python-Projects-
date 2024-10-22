@@ -1,3 +1,5 @@
+![Assigned Project Task](/assets/CompletedCheckpointScreenshots/Screenshot%20(115).png)
+
 # Week 2 Checkpoint - GOMYCODE
 This repository contains solutions to various Python programming tasks assigned for Week 2. 
 Below is an overview of each task, explaining what the program does and how it works.
