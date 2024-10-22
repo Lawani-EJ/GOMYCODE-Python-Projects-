@@ -1,3 +1,5 @@
+![ProjectTask](/assets/CompletedCheckpointScreenshots/Screenshot%20(129).png)
+
 # File Reading Checkpoint
 This repository contains solutions to various file-reading tasks assigned as a checkpoint during the GOMYCODE coding bootcamp. Below is an overview of each task and what it accomplishes.
 
