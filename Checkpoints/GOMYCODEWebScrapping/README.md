@@ -1,3 +1,5 @@
+![ProjectTask](/assets/CompletedCheckpointScreenshots/Screenshot%20(127).png)
+
 # Web Scraping Checkpoint
 This repository contains a Python script that performs web scraping using the `requests` and `BeautifulSoup` libraries. The script is designed to fetch information from Wikipedia based on user input, as assigned for the web scraping checkpoint at GOMYCODE.
 
