@@ -1,3 +1,7 @@
+![Assigned Project Task](/assets/CompletedCheckpointScreenshots/Screenshot%20(124).png)
+
+
+
 # DataFrame Manipulation Checkpoint
 This repository contains solutions to tasks focused on DataFrame manipulation using Pandas, as assigned for the checkpoint at GOMYCODE. Below is an overview of each task performed and what the program accomplishes.
 
